@@ -3,10 +3,14 @@
     padding-top: 7%;
     text-align: center;
     background-color:$colorfondo;
-    padding-bottom: 20px;
+    padding-bottom: 21px;
 
     p{
         padding: 6%;
+    }
+
+    h1{
+        color:$colortexto;
     }
 }
 .index_img img{
@@ -14,6 +18,10 @@
 }
 //servicios
 .servicios_main{
+    h1{
+        color:$colortexto;
+    }
+    
     text-align: center;
     align-items: center;
     background-color:$colorfondo;
@@ -28,6 +36,8 @@
     h1{
         display: flex;
         justify-content: center;
+        color:$colortexto;
+    
     }
 }
 .oportunidades_img img{
@@ -40,8 +50,10 @@
     background-color:$colorfondo;
 
     h1{
+        color:$colortexto;
         display: flex;
         justify-content: center;
+        color: $colortexto;
     }
 
     p{
@@ -63,6 +75,7 @@
     border-radius: 20px;
 
     h1{
+        
         margin-bottom: 30px;
     }
 }
@@ -71,7 +84,7 @@ select,
 textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid $colornegro;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;

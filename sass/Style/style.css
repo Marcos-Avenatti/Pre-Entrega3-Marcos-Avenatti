@@ -6,14 +6,17 @@ div img {
   padding-top: 7%;
   text-align: center;
   background-color: rgba(224, 65, 152, 0.762);
-  padding-bottom: 20px;
+  padding-bottom: 21px;
 }
 .main_index p {
   padding: 6%;
 }
+.main_index h1 {
+  color: white;
+}
 
 .index_img img {
-  height: 340px;
+  height: 350px;
 }
 
 .servicios_main {
@@ -21,6 +24,9 @@ div img {
   align-items: center;
   background-color: rgba(224, 65, 152, 0.762);
   padding-bottom: 110px;
+}
+.servicios_main h1 {
+  color: white;
 }
 
 .oportunidades_main {
@@ -31,6 +37,7 @@ div img {
 .oportunidades_main h1 {
   display: flex;
   justify-content: center;
+  color: white;
 }
 
 .oportunidades_img img {
@@ -43,8 +50,10 @@ div img {
   background-color: rgba(224, 65, 152, 0.762);
 }
 .nosotros_main h1 {
+  color: white;
   display: flex;
   justify-content: center;
+  color: white;
 }
 .nosotros_main p {
   display: flex;
