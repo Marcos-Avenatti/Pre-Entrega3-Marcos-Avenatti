@@ -1,10 +1,32 @@
-.footer_index{
-    
-    align-items: center;
+footer{
+    background-color: $colornegro;
 
-    p{
-        display: flexbox;
-        justify-content: center;
-        padding-bottom: 110px;
+    img{
+        height: 20px;
+    }
+
+    .footer_div{
+
+        padding-left: 300px;
+        display: flex;
+        
+
+        p{
+            color: $colortexto;
+            @include FooterPadding;
+        }
+        a{
+            color: $colortexto;
+            @include FooterPadding;
+        }
+
+        div{
+            @include FooterPadding;
+        }
+
+    }
+
+    .footer_email{
+        color: $colortexto;
     }
 }

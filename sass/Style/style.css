@@ -3,36 +3,49 @@ div img {
 }
 
 .main_index {
-  padding-top: 7%;
+  padding-top: 3%;
   text-align: center;
-  background-color: rgba(224, 65, 152, 0.762);
+  background-color: rgba(207, 108, 163, 0.762);
   padding-bottom: 21px;
 }
 .main_index p {
-  padding: 6%;
+  padding: 2%;
 }
 .main_index h1 {
   color: white;
 }
 
 .index_img img {
-  height: 350px;
+  height: 320px;
+}
+
+.index_img2 img {
+  height: 420px;
 }
 
 .servicios_main {
+  padding-top: 2%;
   text-align: center;
   align-items: center;
-  background-color: rgba(224, 65, 152, 0.762);
-  padding-bottom: 110px;
+  background-color: rgba(207, 108, 163, 0.762);
+  padding-bottom: 21px;
 }
 .servicios_main h1 {
   color: white;
+}
+.servicios_main .galeria_1 img {
+  width: 85vh;
+  height: 60vh;
+}
+.servicios_main .galeria_2 img {
+  width: 85vh;
+  height: 60vh;
 }
 
 .oportunidades_main {
   height: 600px;
   padding-bottom: 700px;
-  background-color: rgba(224, 65, 152, 0.762);
+  background-color: rgba(207, 108, 163, 0.762);
 }
 .oportunidades_main h1 {
   display: flex;
@@ -47,7 +60,13 @@ div img {
 
 .nosotros_main {
   height: 600px;
-  background-color: rgba(224, 65, 152, 0.762);
+  background-color: rgba(207, 108, 163, 0.762);
+}
+.nosotros_main .nosotros_message {
+  width: 70px;
+  margin-left: 95vh;
+  margin-top: 7vh;
+  margin-bottom: 4vh;
 }
 .nosotros_main h1 {
   color: white;
@@ -62,12 +81,15 @@ div img {
 }
 
 .contacto_main {
-  background-color: rgba(224, 65, 152, 0.762);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(207, 108, 163, 0.762);
   padding: 40px 0px 220px;
 }
 
 .contact-form {
-  background-color: rgba(224, 65, 152, 0.762);
+  background-color: rgba(207, 108, 163, 0.762);
   margin: 50px 250px;
   padding: 50px;
   border-radius: 20px;
@@ -81,7 +103,7 @@ select,
 textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgb(41, 39, 39);
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -89,13 +111,29 @@ textarea {
   resize: vertical;
 }
 
-.footer_index {
-  align-items: center;
+footer {
+  background-color: rgb(41, 39, 39);
 }
-.footer_index p {
-  display: flexbox;
-  justify-content: center;
-  padding-bottom: 110px;
+footer img {
+  height: 20px;
+}
+footer .footer_div {
+  padding-left: 300px;
+  display: flex;
+}
+footer .footer_div p {
+  color: white;
+  padding-left: 5%;
+}
+footer .footer_div a {
+  color: white;
+  padding-left: 5%;
+}
+footer .footer_div div {
+  padding-left: 5%;
+}
+footer .footer_email {
+  color: white;
 }
 
 @media only screen and (max-width: 600px) {
@@ -106,9 +144,30 @@ textarea {
     padding-bottom: 700px;
   }
   .index_img img {
+    height: 23vh;
+  }
+  .imagen6 {
+    height: 5vh;
+  }
+  .index_img2 img {
     height: 28vh;
   }
   .oportunidades_main {
     padding-bottom: 2500px;
+  }
+  .galeria_1 {
+    width: 50vh;
+    padding-left: 11%;
+    height: 50px;
+    padding-bottom: 900px;
+  }
+  .galeria_2 {
+    padding-left: 11%;
+    width: 50vh;
+    height: 50px;
+    padding-bottom: 900px;
+  }
+  .servicios_main {
+    padding-bottom: 100px;
   }
 }/*# sourceMappingURL=style.css.map */

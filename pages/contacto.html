@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body>
-    <header>
+  <header>
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="logo"><img src="../img/al1.1.png" alt="logo"></div>
             <div class="container-fluid">
@@ -37,18 +37,18 @@
         </nav>
   </header>   
   <main class="contacto_main">
-    <form>
+    <form class="FormularioContacto">
       <div class="form-row">
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-16">
           <label for="inputEmail4">Nombre</label>
           <input type="text" class="form-control" id="inputEmail4" placeholder="Su nombre...">
         </div>
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-16">
           <label for="inputPassword4">Apellido</label>
           <input type="text" class="form-control" id="inputPassword4" placeholder="Su apellido...">
         </div>
       </div>
-        <div class="form-group col-md-4">
+        <div class="form-group col-md-6">
           <label for="inputState">País</label>
           <select id="inputState" class="form-control">
             <option selected>Brasil</option>
@@ -58,42 +58,28 @@
             <option>Venezuela</option>
           </select>
         </div>
-        <div class="form-group col-md-2">
+        <div class="form-group col-md-16">
           <label for="inputZip">Comentario</label>
           <input type="text" class="form-control" id="inputZip" placeholder="Deje su Comentario... ">
         </div>
-      </div>
       <button type="submit" class="btn btn-primary">ENVIAR</button>
     </form>
   </main>
-  <footer>
-    <div class="navbar navbar-expand-lg navbar-dark bg-dark marcola">
-      <p>Alumina © 2022</p>
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">inicio</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/serviciosysoluciones.html">servicios y solciones</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/oportunidadeslaborales.html">oportunidades laborales</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/nosotros.html">nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="../pages/contacto.html">contacto</a>
-            </li>
-            </ul>
-        </div>
-      </div>
+  <footer class="bg-dark text-center text-white">
+    <div class="container p-4 pb-0">
+        <section class="mb-4">
+            <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.instagram.com/alumina.consulting/" role="button"
+            ><i class="fab fa-instagram"><img src="../img/inst.png" alt=""></i
+                
+            ></a>
+        </section>
     </div>
-  </footer>
-<!-- JavaScript Bundle with Popper -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        Alumina © 2022
+        <a class="footer_email" data-auto-recognition="true" href="mailto:rrhh@aluminarh.com">rrhh@aluminarh.com</a>
+        <p>+ 598 92 901 119</p>
+    </div>
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>

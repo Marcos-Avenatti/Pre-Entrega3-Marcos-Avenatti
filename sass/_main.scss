@@ -1,12 +1,12 @@
 //index
 .main_index{
-    padding-top: 7%;
+    padding-top: 3%;
     text-align: center;
     background-color:$colorfondo;
     padding-bottom: 21px;
 
     p{
-        padding: 6%;
+        padding: 2%;
     }
 
     h1{
@@ -14,18 +14,33 @@
     }
 }
 .index_img img{
-    height: 340px;
+    height: 320px;
+}
+.index_img2 img{
+    height: 420px;
 }
 //servicios
 .servicios_main{
     h1{
         color:$colortexto;
     }
-    
+    padding-top: 2%;
     text-align: center;
     align-items: center;
     background-color:$colorfondo;
-    padding-bottom: 110px;
+    padding-bottom: 21px;
+
+
+    .galeria_1 img{
+        width: 85vh;
+        height: 60vh;
+    }
+
+    .galeria_2 img{
+        width: 85vh;
+        height: 60vh;
+    }
+
 }
 //oportunidades
 .oportunidades_main{
@@ -34,8 +49,7 @@
     background-color:$colorfondo;
 
     h1{
-        display: flex;
-        justify-content: center;
+        @include Centrar;
         color:$colortexto;
     
     }
@@ -49,24 +63,33 @@
     height: 600px;
     background-color:$colorfondo;
 
+    .nosotros_message{
+        width: 70px;
+        margin-left: 95vh;
+        margin-top: 7vh;
+        margin-bottom: 4vh;
+        
+    }
+
     h1{
         color:$colortexto;
-        display: flex;
-        justify-content: center;
+        @include Centrar;
         color: $colortexto;
     }
 
     p{
-        display: flex;
-        justify-content: center;
+        @include Centrar;
         text-align: center;  
     }
 }
 //contacto
 .contacto_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color:$colorfondo;
     padding: 40px 0px 220px;
-
+    
 }
 .contact-form{  
     background-color:$colorfondo;
